@@ -1,0 +1,42 @@
+{
+	"@type": [
+		"PusButton"
+	],
+	"name": "Button_Sensor",
+	"description": "A push button",
+	"links": [
+		{}
+	],
+	"href": "/things/pushbutton",
+	"@context": "https://iot.mozilla.org/schemas",
+	"actions": {
+	},
+	"properties": {
+		"pushed": {
+			"@type": "PushedProperty",
+			"description": "The current active / inactive state",
+			"readOnly": true,
+			"links": [
+				{
+					"href": "/things/pushbutton/properties/pushed"
+				}
+			],
+			"state": "true or false",
+			"title": "Button sensor",
+			"type": "boolean"
+		}
+	},
+	"events": {
+		"pressed": {
+			"@type": "PressedEvent",
+			"description": "The button was pressed",
+			"links": [
+				{
+					"href": "/things/pushbutton/events/pressed"
+				}
+			],
+			"state": "true or false",
+			"type": "boolean"
+		}
+	}
+}

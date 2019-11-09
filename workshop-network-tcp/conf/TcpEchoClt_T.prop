@@ -1,0 +1,9 @@
+dstAddress=127.0.0.1
+dstPort=50001
+srcNetworkInterface=lo
+srcPort=61015
+dsRcvBufferSize=1024
+dsSendBufferSize=1024
+dataBufferSize=1024
+# Timeout in msec
+rcvTimeout=10000

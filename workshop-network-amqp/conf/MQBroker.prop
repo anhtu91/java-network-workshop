@@ -1,0 +1,33 @@
+# ####################################################
+# Define the iot cloud connection factory properties 
+# to connect to the RabbitMQ broker.
+# 
+# author: MK
+# date: 2016-03-08
+#
+# ####################################################
+
+# IP of the broker
+#host=localhost
+host=10.3.0.75
+#host=ikt-server.ikt.fh-dortmund.de
+
+# AMQP port of the broker
+port=5672
+
+# Virtual host ???
+virtualHost=/
+
+# User name
+#userName=guest
+userName=mkuller
+
+# Password
+#password=guest
+password=mkuller
+
+# Lost connection to the broker - try to reconnect the broker automatically
+automaticRecoveryEnabled=true
+
+# Lost connection to the broker - try to reconnect the broker automatically in interval (msec)
+networkRecoveryInterval=1000

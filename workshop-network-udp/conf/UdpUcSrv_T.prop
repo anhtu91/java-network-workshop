@@ -1,0 +1,12 @@
+srcAddress=127.0.0.1
+srcPort=60000
+dsRcvBufferSize=1024
+dsSendBufferSize=1024
+dataBufferSize=160
+# Timeout in msec - a timeout of zero is interpreted as an infinite timeout (blocking mode)
+rcvTimeout=0
+# Timeout in msec - simulates the time for processing
+sendTimeout=2000
+# Code false: sende "ACK: <rcvString> zurueck (standard)
+# Code true:  sende nur 0 Byte zurueck
+zeroByte=false

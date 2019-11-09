@@ -1,0 +1,11 @@
+srcAddress=127.0.0.1
+srcPort=50001
+dsRcvBufferSize=1024
+dsSendBufferSize=1024
+dataBufferSize=160
+rcvTimeout=0
+# Timeout in msec
+sendTimeout=0
+# Code false: sende "ACK: <rcvString> zurueck (standard)
+# Code true:  sende nur 0 Byte zurueck
+zeroByte=false

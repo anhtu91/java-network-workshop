@@ -1,0 +1,9 @@
+srcAddress=127.0.0.1
+dstAddress=<ip>
+dstPort=60000
+srcPort=61001
+dsRcvBufferSize=1024
+dsSendBufferSize=1024
+dataBufferSize=1024
+# Timout in msec
+rcvTimeout=10000

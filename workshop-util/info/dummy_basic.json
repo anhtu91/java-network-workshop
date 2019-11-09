@@ -1,0 +1,24 @@
+{
+	"href": "/things/temperaturesensor",
+	"@context": "https://iot.mozilla.org/schemas",
+	"@type": [
+		"Geraetetyp"
+	],
+	"name": "<Symbolischer Name des Geraetes>",
+	"description": "<Beschreibung des Geraetes",
+	"links": [
+		{
+			"href": "/things/temperaturesensor/actions"
+		}
+		//...
+	],
+	"actions": {
+		//...
+	},
+	"properties": {
+		//...
+	},
+	"events": {
+		//...
+	}
+}

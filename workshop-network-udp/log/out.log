@@ -1,0 +1,24 @@
+Java(TM) SE Runtime Environment (build 12.0.1+12) from Oracle Corporation - Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing) - Windows 7 6.1 Service Pack 1, architecture: amd64-64INFO      [22:31:23.144] [main           ] [workshop.network.udp.UdpUcClt_T_pattern ] [UdpUcClt_T_pattern.java] [  145] - 
+PROPERTIES FILE values:
+dstAddress: 		'127.0.0.1' hostname or ip (x.x.x.x)
+dstPort: 		'<ip>'
+srcPort: 		'60000'
+dsRcvBufferSize: 	'61001' 	in byte
+dsSendBufferSize: 	'1024' 	in byte
+dataBufferSize: 	'1024' 	in byte
+rcvTimeout: 		'1024' 	in sec
+
+INFO      [22:31:23.154] [main           ] [workshop.network.udp.UdpUcClt_T_pattern ] [UdpUcClt_T_pattern.java] [  175] - Ihre IP Addresse/Port: 
+INFO      [22:31:25.405] [main           ] [workshop.network.udp.UdpUcClt_T_pattern ] [UdpUcClt_T_pattern.java] [  187] - Inhalt des Objecktes saDstAddress: %s
+INFO      [22:31:25.405] [Dialog         ] [workshop.network.udp.UdpUcClt_T_pattern ] [UdpUcClt_T_pattern.java] [   90] - 22:31:25: Input text and send to address '<ip>:60000' - Exit program - press terminate button in Eclipse IDE or press key 'q': 
+ERROR     [22:31:31.127] [main           ] [workshop.network.udp.UdpUcClt_T_pattern ] [UdpUcClt_T_pattern.java] [  245] - begin 0, end 1024, length 2
+java.lang.StringIndexOutOfBoundsException: begin 0, end 1024, length 2
+	at java.lang.String.checkBoundsBeginEnd(String.java:3410) ~[?:?]
+	at java.lang.String.getBytes(String.java:917) ~[?:?]
+	at workshop.network.udp.UdpUcClt_T_pattern.main(UdpUcClt_T_pattern.java:224) [test-classes/:?]
+INFO      [22:31:31.147] [main           ] [workshop.network.udp.UdpUcClt_T_pattern ] [UdpUcClt_T_pattern.java] [  247] - 
+Main Thread finally Block - Ressourcenfreigabe.
+
+INFO      [22:31:31.147] [main           ] [workshop.network.udp.UdpUcClt_T_pattern ] [UdpUcClt_T_pattern.java] [  258] - 
+Programm Ende !!!.
+

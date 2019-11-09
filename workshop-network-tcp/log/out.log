@@ -1,0 +1,123 @@
+Java(TM) SE Runtime Environment (build 1.8.0_211-b12) from Oracle Corporation - Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode) - Windows 7 6.1 Service Pack 1, architecture: amd64-64INFO      [01:56:32.100] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Software Loopback Interface 1' | nif name: 'lo'.
+
+INFO      [01:56:32.105] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: '127.0.0.1'
+
+INFO      [01:56:32.105] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: '0:0:0:0:0:0:0:1'
+
+INFO      [01:56:32.106] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (SSTP)' | nif name: 'net0'.
+
+INFO      [01:56:32.106] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (L2TP)' | nif name: 'net1'.
+
+INFO      [01:56:32.106] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (PPTP)' | nif name: 'net2'.
+
+INFO      [01:56:32.107] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (PPPOE)' | nif name: 'ppp0'.
+
+INFO      [01:56:32.107] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (IPv6)' | nif name: 'eth0'.
+
+INFO      [01:56:32.107] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (Network Monitor)' | nif name: 'eth1'.
+
+INFO      [01:56:32.108] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (IP)' | nif name: 'eth2'.
+
+INFO      [01:56:32.108] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'RAS Async Adapter' | nif name: 'ppp1'.
+
+INFO      [01:56:32.108] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (IKEv2)' | nif name: 'net3'.
+
+INFO      [01:56:32.108] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Realtek PCIe GBE Family Controller' | nif name: 'eth3'.
+
+INFO      [01:56:32.109] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: 'fe80:0:0:0:8d7:511a:761f:c473%eth3'
+
+INFO      [01:56:32.109] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Bluetooth Device (RFCOMM Protocol TDI)' | nif name: 'net4'.
+
+INFO      [01:56:32.109] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Bluetooth Device (Personal Area Network)' | nif name: 'eth4'.
+
+INFO      [01:56:32.110] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Teredo Tunneling Pseudo-Interface' | nif name: 'net5'.
+
+INFO      [01:56:32.110] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: 'fe80:0:0:0:e0:0:0:0%net5'
+
+INFO      [01:56:32.110] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Atheros AR9285 Wireless Network Adapter' | nif name: 'wlan0'.
+
+INFO      [01:56:32.110] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: '192.168.1.5'
+
+INFO      [01:56:32.111] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: 'fe80:0:0:0:7517:31a2:590:c2b5%wlan0'
+
+INFO      [01:56:32.111] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft 6to4 Adapter' | nif name: 'net6'.
+
+INFO      [01:56:32.111] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft ISATAP Adapter #2' | nif name: 'net7'.
+
+INFO      [01:56:32.111] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft Virtual WiFi Miniport Adapter' | nif name: 'wlan1'.
+
+INFO      [01:56:32.112] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: 'fe80:0:0:0:141c:c33b:256a:7194%wlan1'
+
+INFO      [01:56:32.112] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft ISATAP Adapter' | nif name: 'net8'.
+
+INFO      [01:56:32.112] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [  102] - 
+InetAddress: 'fe80:0:0:0:0:5efe:c0a8:105%net8'
+
+INFO      [01:56:32.112] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft ISATAP Adapter #3' | nif name: 'net9'.
+
+INFO      [01:56:32.113] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft ISATAP Adapter #4' | nif name: 'net10'.
+
+INFO      [01:56:32.113] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Atheros AR9285 Wireless Network Adapter-Virtual WiFi Filter Driver-0000' | nif name: 'wlan2'.
+
+INFO      [01:56:32.113] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Atheros AR9285 Wireless Network Adapter-QoS Packet Scheduler-0000' | nif name: 'wlan3'.
+
+INFO      [01:56:32.114] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000' | nif name: 'eth5'.
+
+INFO      [01:56:32.114] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000' | nif name: 'eth6'.
+
+INFO      [01:56:32.114] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (IPv6)-QoS Packet Scheduler-0000' | nif name: 'eth7'.
+
+INFO      [01:56:32.115] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (IP)-QoS Packet Scheduler-0000' | nif name: 'eth8'.
+
+INFO      [01:56:32.115] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000' | nif name: 'eth9'.
+
+INFO      [01:56:32.115] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Atheros AR9285 Wireless Network Adapter-Native WiFi Filter Driver-0000' | nif name: 'wlan4'.
+
+INFO      [01:56:32.116] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Atheros AR9285 Wireless Network Adapter-WFP LightWeight Filter-0000' | nif name: 'wlan5'.
+
+INFO      [01:56:32.116] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft Virtual WiFi Miniport Adapter-Native WiFi Filter Driver-0000' | nif name: 'wlan6'.
+
+INFO      [01:56:32.116] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft Virtual WiFi Miniport Adapter-QoS Packet Scheduler-0000' | nif name: 'wlan7'.
+
+INFO      [01:56:32.117] [main           ] [workshop.network.tcp.TcpEchoClt_T_pattern] [TcpEchoClt_T_pattern.java] [   98] - 
+Display nif name: 'Microsoft Virtual WiFi Miniport Adapter-WFP LightWeight Filter-0000' | nif name: 'wlan8'.
+

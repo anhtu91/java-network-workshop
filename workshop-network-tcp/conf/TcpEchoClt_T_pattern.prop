@@ -1,0 +1,8 @@
+dstAddress=<IP>
+dstPort=60000
+srcNetworkInterface=<Nif>
+srcPort=61009
+dsRcvBufferSize=1024
+dsSendBufferSize=1024
+dataBufferSize=1024
+rcvTimeout=10

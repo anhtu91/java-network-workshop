@@ -1,0 +1,41 @@
+{
+	"href": "/things/jalousie",
+	"@context": "https://iot.mozilla.org/schemas",
+	"@type": [
+		"MultiLevelSwitch"
+	],
+	"name": "Jalousie",
+	"description": "A web connected jalousie",
+	"links": [
+		{ }
+	],
+	"actions": { },
+	"properties": {
+		"position": {
+			"unit": "percent",
+			"@type": "LevelProperty",
+			"description": "The position of the jalousie from 0-100",
+			"maximum": 100,
+			"links": [
+				{
+					"href": "/things/jalousie/properties/position"
+				}
+			],
+			"title": "Jalousie",
+			"type": "integer",
+			"minimum": 0
+		},
+		"open": {
+			"@type": "OpenProperty",
+			"description": "Whether the jalousie is open or closed",
+			"links": [
+				{
+					"href": "/things/jalousie/properties/open"
+				}
+			],
+			"title": "Open/Closed",
+			"type": "boolean"
+		}
+	},
+	"events": {	}
+}

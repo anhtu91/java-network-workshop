@@ -1,0 +1,44 @@
+{
+	"href": "/things/temperaturesensor",
+	"@context": "https://iot.mozilla.org/schemas",
+	"@type": [
+		"MultiLevelSensor"
+	],
+	"name": "Temperature_Sensor",
+	"description": "A web connected temperature sensor",
+	"links": [
+		{
+			"rel": "properties",
+			"href": "/things/temperaturesensor/properties"
+		},
+		{
+			"rel": "actions",
+			"href": "/things/temperaturesensor/actions"
+		},
+		{
+			"rel": "events",
+			"href": "/things/temperaturesensor/events"
+		}
+	],
+	"actions": {
+	},
+	"properties": {
+		"level": {
+			"unit": "grad celsius",
+			"@type": "LevelProperty",
+			"description": "The current temperature in °C",
+			"maximum": 60,
+			"readOnly": true,
+			"links": [
+				{
+					"href": "/things/temperaturesensor/properties/level"
+				}
+			],
+			"title": "Temperature",
+			"type": "number",
+			"minimum": -30
+		}
+	},
+	"events": {
+	}
+}

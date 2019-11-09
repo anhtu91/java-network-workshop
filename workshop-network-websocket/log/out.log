@@ -1,0 +1,101 @@
+Java(TM) SE Runtime Environment (build 1.8.0_172-b11) from Oracle Corporation - Java HotSpot(TM) 64-Bit Server VM (build 25.172-b11, mixed mode) - Windows 10 10.0, architecture: amd64-64INFO      [17:50:40.952] [main           ] [workshop.network.websocket.HttpWebSocketServer_R] [HttpWebSocketServer_R.java] [  144] - 
+Property file values: srcAddress '127.0.0.1', srcPort '8080', contextPath '/java-workshop'
+INFO      [17:50:41.124] [main           ] [workshop.network.websocket.HttpWebSocketServer_R] [HttpWebSocketServer_R.java] [  181] - Starting the jetty server ...
+INFO      [17:50:41.405] [main           ] [workshop.network.websocket.HttpWebSocketServer_R] [HttpWebSocketServer_R.java] [  189] - Starting the notification thread ...
+INFO      [17:50:41.413] [main           ] [workshop.network.websocket.HttpWebSocketServer_R] [HttpWebSocketServer_R.java] [  199] - Calling the jetty server join function ...
+INFO      [17:50:46.416] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '0'
+
+INFO      [17:50:46.430] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   61] - The sessions map length is '0' ... do nothing.
+
+INFO      [17:50:51.431] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '0'
+
+INFO      [17:50:51.432] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   61] - The sessions map length is '0' ... do nothing.
+
+INFO      [17:50:56.434] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '0'
+
+INFO      [17:50:56.435] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   61] - The sessions map length is '0' ... do nothing.
+
+INFO      [17:50:57.222] [onWebSocketConnect] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  160] - Socket Connected with session: 'WebSocketSession[websocket=JettyListenerEventDriver[workshop.network.websocket.EventWebSocketAdapter_R],behavior=SERVER,connection=WebSocketServerConnection@e004ce0c[ios=IOState@ff7044a[CONNECTED,!in,out],f=Flusher@c92321c[queueSize=0,aggregateSize=0,terminated=null],g=Generator[SERVER,validating,+rsv1],p=Parser@49c6ba0f[ExtensionStack,s=START,c=0,len=0,f=null]]<-SocketChannelEndPoint@157c8222{/127.0.0.1:63419<->/127.0.0.1:8080,OPEN,fill=-,flush=-,to=19/300000}{io=0/0,kio=0,kro=1}->WebSocketServerConnection@e004ce0c[ios=IOState@ff7044a[CONNECTED,!in,out],f=Flusher@c92321c[queueSize=0,aggregateSize=0,terminated=null],g=Generator[SERVER,validating,+rsv1],p=Parser@49c6ba0f[ExtensionStack,s=START,c=0,len=0,f=null]],remote=WebSocketRemoteEndpoint@5c586f5c[batching=true],incoming=JettyListenerEventDriver[workshop.network.websocket.EventWebSocketAdapter_R],outgoing=ExtensionStack[queueSize=0,extensions=[permessage-deflate],incoming=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension,outgoing=org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension]]'
+INFO      [17:51:01.438] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:05.239] [handleDelivery ] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  128] - [x-Consumer] received 'from client publish message'
+INFO      [17:51:06.448] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:06.657] [handleDelivery ] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  128] - [x-Consumer] received 'from client publish message'
+INFO      [17:51:07.361] [handleDelivery ] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  128] - [x-Consumer] received 'from client publish message'
+INFO      [17:51:08.089] [handleDelivery ] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  128] - [x-Consumer] received 'from client publish message'
+INFO      [17:51:08.657] [handleDelivery ] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  128] - [x-Consumer] received 'from client publish message'
+INFO      [17:51:11.451] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:16.453] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:21.455] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:24.168] [handleDelivery ] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  128] - [x-Consumer] received 'from client publish message'
+INFO      [17:51:26.456] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:31.472] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:36.473] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:41.476] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:43.022] [handleDelivery ] [workshop.network.websocket.EventWebSocketAdapter_R] [EventWebSocketAdapter_R.java] [  128] - [x-Consumer] received 'from client publish message'
+INFO      [17:51:46.486] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:51.495] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:51:56.497] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:01.499] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:06.508] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:11.525] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:16.539] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:21.544] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:26.550] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:31.556] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:36.571] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:41.577] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:46.592] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:51.605] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:52:56.621] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:01.634] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:06.639] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:11.641] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:16.656] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:21.672] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:26.686] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:31.704] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:36.718] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:41.734] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:46.751] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:51.756] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:53:56.767] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:54:01.769] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+
+INFO      [17:54:06.784] [run            ] [workshop.network.websocket.EventTask_R  ] [EventTask_R.java    ] [   57] - The sessions map length is '1'
+

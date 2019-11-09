@@ -1,0 +1,95 @@
+Java(TM) SE Runtime Environment (build 12.0.1+12) from Oracle Corporation - Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing) - Windows 7 6.1 Service Pack 1, architecture: amd64-64INFO      [07:41:55.065] [main           ] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  192] - Test cases FIFO
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   26] - Starting the test case 1 - overwrite 'false'
+
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   29] - CASE 1: Writes 10 elements into this 'Buffer [length=10, overwrite=false, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 0, 0, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 0, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 7, 0, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 0]]'
+INFO      [07:41:55.080] [testCaseOneFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   36] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   61] - Starting the test case 2 - overwrite 'false'
+
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   64] - CASE 2: Writes 11 elements into this 'Buffer [length=10, overwrite=false, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 7, 0, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 0]]'
+INFO      [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   71] - Content of 'Buffer [length=10, overwrite=false, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]'
+ERROR     [07:41:55.096] [testCaseTwoFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   75] - Catching
+java.lang.IndexOutOfBoundsException: null
+	at workshop.homework.buffer.Buffer.add(Buffer.java:31) ~[test-classes/:?]
+	at workshop.homework.buffer.Buffer_T.testCaseTwoFIFO(Buffer_T.java:68) [test-classes/:?]
+	at workshop.homework.buffer.Buffer_T.main(Buffer_T.java:196) [test-classes/:?]
+INFO      [07:41:55.096] [testCaseThreeFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   96] - Starting the test case 3 - overwrite 'false'
+
+INFO      [07:41:55.096] [testCaseThreeFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [   99] - CASE 3: Writes 10 elements into this 'Buffer [length=10, overwrite=false, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+
+ERROR     [07:41:55.096] [testCaseThreeFIFO] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  106] - Catching
+java.lang.NullPointerException: null
+	at workshop.homework.buffer.Buffer.get(Buffer.java:65) ~[test-classes/:?]
+	at workshop.homework.buffer.Buffer_T.testCaseThreeFIFO(Buffer_T.java:102) [test-classes/:?]
+	at workshop.homework.buffer.Buffer_T.main(Buffer_T.java:198) [test-classes/:?]
+INFO      [07:41:55.096] [main           ] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  200] - Test cases Ring Buffer
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  123] - Starting the test case 1 - overwrite 'true'
+
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  124] - CASE 1: Writes 15 elements into this 'Buffer [length=10, overwrite=true, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 0, 0, 0, 0]]'
+INFO      [07:41:55.096] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 0, 0, 0]]'
+INFO      [07:41:55.112] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 7, 0, 0]]'
+INFO      [07:41:55.112] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 0]]'
+INFO      [07:41:55.112] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[10, 1, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 12, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 12, 13, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  128] - Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 12, 13, 14, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  134] - Offset '5'
+INFO      [07:41:55.113] [testCaseOneRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  135] - Number '5'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  154] - Starting the test case 2 - overwrite 'true'
+
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  155] - CASE 2: Writes 12 elements into this 'Buffer [length=10, overwrite=true, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 0, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 0, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 0, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 0, 0, 0, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 0, 0, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 0, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 7, 0, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 0]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[10, 1, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  159] - Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  165] - Offset '2'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  166] - Number '2'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  173] - Read 9 elements in buffer 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '0') value '2' with offset '2', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '1') value '3' with offset '3', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '2') value '4' with offset '4', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '3') value '5' with offset '5', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '4') value '6' with offset '6', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '5') value '7' with offset '7', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '6') value '8' with offset '8', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '7') value '9' with offset '9', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  178] - ==> get(Counter - '8') value '10' with offset '0', Content of 'Buffer [length=10, overwrite=true, arr=[10, 11, 2, 3, 4, 5, 6, 7, 8, 9]]'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  185] - Offset '1'
+INFO      [07:41:55.113] [testCaseTwoRingBuffer] [workshop.homework.buffer.Buffer_T       ] [Buffer_T.java       ] [  186] - Number '11'

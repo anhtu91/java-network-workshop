@@ -1,0 +1,46 @@
+{
+	"href": "/things/jalousie",
+	"@context": "https://iot.mozilla.org/schemas",
+	"@type": [
+		"MultiLevelSwitch"
+	],
+	"name": "Jalousie",
+	"description": "A web connected jalousie",
+	"links": [
+		{ }
+	],
+	"actions": {
+		"fade": {
+			"input": {
+				"type": "object",
+				"required": [
+					"position",
+					"duration"
+				],
+				"properties": {
+					"duration": {
+						"unit": "milliseconds",
+						"type": "integer",
+						"minimum": 1
+					},
+					"position": {
+						"unit": "percent",
+						"maximum": 100,
+						"type": "integer",
+						"minimum": 0
+					}
+				}
+			},
+			"@type": "FadeAction",
+			"description": "Fade the jalousie to a given level",
+			"links": [
+				{
+					"href": "/things/jalousie/actions/fade"
+				}
+			],
+			"title": "Fade"
+		}
+	},
+	"properties": { },
+	"events": { }
+}
